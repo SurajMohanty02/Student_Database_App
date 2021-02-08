@@ -1,0 +1,37 @@
+.profile {
+  margin-top: 80px;
+  display: flex;
+}
+.containers {
+  display: flex;
+  padding: 30px;
+}
+.left__section > img {
+  height: 400px;
+  width: 400px;
+  margin-right: 50px;
+  border: 1px ridge gray;
+}
+.bold {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.name,
+.email,
+.address,
+.add1,
+.add2,
+.phone,
+.bio {
+  margin-bottom: 10px;
+}
+@media (max-width: 660px) {
+  .containers {
+    display: flex;
+    flex-direction: column;
+  }
+  .left__section {
+    margin-bottom: 30px;
+  }
+}
